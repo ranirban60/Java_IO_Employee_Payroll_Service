@@ -11,7 +11,7 @@ import java.util.stream.IntStream;
 
 
 public class NIOFileAPITest {
-    private static String HOME = System.getProperty("user.dir");
+    private static String HOME = System.getProperty("user.home");
     private static String PLAY_WITH_NIO = "TempPlayGround";
 
     @Test
