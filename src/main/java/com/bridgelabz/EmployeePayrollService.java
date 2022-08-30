@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class EmployeePayrollService {
-
     List<EmployeePayrollData> employeePayrollDataList;
     public EmployeePayrollService(List<EmployeePayrollData> employeePayrollDataList){
         this.employeePayrollDataList = employeePayrollDataList;

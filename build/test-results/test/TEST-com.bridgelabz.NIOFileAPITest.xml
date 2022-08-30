@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.NIOFileAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-30T07:44:08" hostname="DESKTOP-42C79FL" time="0.166">
+  <properties/>
+  <testcase name="givenPathWhenCheckedThenConfirm()" classname="com.bridgelabz.NIOFileAPITest" time="0.166"/>
+  <system-out><![CDATA[D:\Intellij IDEA\JavaIO\TempPlayGround\temp1
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp2
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp3
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp4
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp5
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp6
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp7
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp8
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp9
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp1
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp2
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp3
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp4
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp5
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp6
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp7
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp8
+D:\Intellij IDEA\JavaIO\TempPlayGround\temp9
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
