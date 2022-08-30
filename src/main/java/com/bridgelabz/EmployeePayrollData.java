@@ -10,6 +10,7 @@ public class EmployeePayrollData {
       this.name = name;
       this.salary = salary;
     }
+
     /**String class represents character String
      * @Override toString in class object
     */
