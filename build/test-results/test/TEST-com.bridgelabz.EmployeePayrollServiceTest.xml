@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T05:49:39" hostname="DESKTOP-42C79FL" time="0.107">
+  <properties/>
+  <testcase name="given3EmployeesWhenWrittenToFileShouldWatchEmployeeEntries()" classname="com.bridgelabz.EmployeePayrollServiceTest" time="0.107"/>
+  <system-out><![CDATA[Employee Id: 1, Employee Name: Jeff Bezos, Employee Salary: 100000.0
+Employee Id: 2, Employee Name: Bill Gates, Employee Salary: 200000.0
+Employee Id: 3, Employee Name: Mark Zuckerberg, Employee Salary: 300000.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
