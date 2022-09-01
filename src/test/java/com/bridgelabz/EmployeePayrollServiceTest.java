@@ -3,7 +3,9 @@ package com.bridgelabz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
 import java.util.Arrays;
+import java.util.List;
 
 public class EmployeePayrollServiceTest {
     @Test
@@ -17,5 +19,8 @@ public class EmployeePayrollServiceTest {
         employeePayrollService = new EmployeePayrollService(Arrays.asList(arrayOfEmps));
         employeePayrollService.writeEmployeePayrollData(EmployeePayrollService.IOService.FILE_IO);
         employeePayrollService.printData(EmployeePayrollService.IOService.FILE_IO);
+        long entries = employeePayrollService.countEntries(EmployeePayrollService.IOService.FILE_IO);
+        Assertions.assertEquals(3,entries);
     }
+
 }

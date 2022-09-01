@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class EmployeePayrollService {
 
+
     public enum IOService {CONSOLE_IO,FILE_IO,DO_IO,REST_IO}
     List<EmployeePayrollData> employeePayrollDataList;
     public EmployeePayrollService(List<EmployeePayrollData> employeePayrollDataList){
@@ -47,5 +48,9 @@ public class EmployeePayrollService {
         if(ioService.equals((IOService.FILE_IO)))
             new EmployeePayrollFileIOService().printData();
     }
-
+    public long countEntries(IOService ioService) {
+        if(ioService.equals((IOService.FILE_IO)))
+            return  new EmployeePayrollFileIOService().countEntries();
+        return 0;
+    }
 }
